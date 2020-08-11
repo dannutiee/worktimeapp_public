@@ -1,0 +1,39 @@
+.Axis path,
+.Axis line {
+  stroke: #dedede;
+}
+
+.Axis text {
+  font-size: 11px;
+  fill: #31557d;
+}
+
+.Axis-Bottom text {
+  transform: rotate(0deg);
+  /* text-anchor: end; */
+}
+
+
+.bar {
+  opacity: .7;
+  pointer-events: all;
+}
+
+.bar:hover{
+  opacity: 1
+}
+
+#thepopup{
+  fill: red;
+  width:fit-content;
+  display: blockl;
+  background: white;
+  opacity:1
+}
+
+.tooltip{
+  fill:red;
+  stroke:black;
+  stroke-width:5;
+  opacity:0.5
+}
